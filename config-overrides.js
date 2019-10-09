@@ -20,5 +20,6 @@ module.exports = override(
     '@pages': resolve(__dirname, 'src/pages'),
     '@components': resolve(__dirname, 'src/components'),
     '@api': resolve(__dirname, 'src/api'),
+    '@config': resolve(__dirname, 'src/config'),
   })
 );

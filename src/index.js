@@ -4,8 +4,9 @@ import { Provider } from 'react-redux';
 import store from './redux/store'
 import { Spin } from 'antd';
 
+// 引入reset,组件
+import './assets/css/reset.css';
 import App from './App';
-import './assets/css/extends.less'
 
 render(
   <Suspense fallback={<Spin size="large"/>}>

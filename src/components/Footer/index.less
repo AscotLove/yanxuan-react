@@ -1,0 +1,28 @@
+@import '../../assets/css/extends';
+@import '../../assets/css/mixin';
+
+.footerNav {
+  &:extend(.f,.ai);
+  padding: 0 30/@rem;
+  width: 100%;
+  height: 98/@rem;
+  justify-content: space-between;
+  text-align: center;
+  > li {
+    white-space: nowrap;
+    .iconfont {
+      &:extend(.f,.ai);
+      flex-wrap: wrap;
+      justify-content: center;
+      width: 80/@rem;
+      height: 80/@rem;
+      &::before {
+        .font(55);
+      }
+      span{
+        .font(16);
+      }
+
+    }
+  }
+}

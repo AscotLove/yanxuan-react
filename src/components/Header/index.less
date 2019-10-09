@@ -1,0 +1,64 @@
+@import '../../assets/css/extends';
+@import '../../assets/css/mixin';
+
+@rem: 750/10rem;
+
+.m-defaultBanner {
+  &:extend(.f,.ai) ;
+  font-size: 12/@rem;
+  height: 104/@rem;
+  padding: 0 30/@rem;
+  justify-content: space-between;
+  background: #333333;
+  color: #fff;
+  .brand {
+    white-space: nowrap;
+    .brand-logo {
+      float: left;
+      width: 72/@rem;
+      height: 72/@rem;
+      margin-right: 10/@rem;
+      border-radius: 7/@rem;
+      background-color: #b4282d;
+    }
+    > p {
+      margin: 8/@rem 0;
+    }
+  }
+  .w-button {
+    background-color: #b4282d;
+    border-radius: 4/@rem;
+    text-align: center;
+    line-height: 42/@rem;
+    padding: 0 16/@rem;
+    color: #fff;
+  }
+}
+
+.line {
+  &:extend(.f,.ai);
+  justify-content: space-between;
+  height: 88/@rem;
+  padding: 0 30/@rem;
+  > h1 {
+    font-size: 50/@rem;
+  }
+
+  input {
+    flex: 1;
+    border-radius: 5/@rem;
+    background-color: #ddd;
+    height: 70/@rem;
+    margin: 0 10/@rem;
+  }
+
+  .loginBtn {
+    font-size: 18/@rem;
+    border-radius: 5/@rem;
+    border: 1/@rem solid #b4282d;
+    color: #b4282d;
+    padding: 0 8/@rem;
+    line-height: 35/@rem;
+  }
+
+}

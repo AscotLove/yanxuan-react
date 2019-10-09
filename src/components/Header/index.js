@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
-
+import './index.css';
 class Header extends Component {
 
   render() {
@@ -18,7 +18,7 @@ class Header extends Component {
         <div className="line">
           <h1>网易严选</h1>
           <input type="text" />
-            <div className="loginBtn">登录</div>
+          <div className="loginBtn">登录</div>
         </div>
       </div>
     </header>

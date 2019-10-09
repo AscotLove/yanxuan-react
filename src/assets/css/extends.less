@@ -13,10 +13,46 @@
 }
 
 
-
-
-// flex
-
-.flex{
-
+/*
+*   flex......................
+*/
+// 盒模型继承父级
+.ih{
+  display: inherit;
 }
+// flex
+.f{
+  display: flex;
+}
+// 居中
+.jc{
+  justify-content: center;
+}
+// 单行文件垂直居中
+.ai{
+  align-items: center;
+}
+// 多行文件垂直居中
+.ac{
+  align-content: center;
+}
+
+/*
+*   文本....................
+*/
+
+// 文字不换行，生成省略号
+.ellipsis{
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+// 文本两端对齐
+.tl{
+  text-align-last: justify;
+}
+// btn,input去除所有样式
+.rs{
+  all:unset;
+}
+
